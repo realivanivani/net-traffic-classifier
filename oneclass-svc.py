@@ -36,7 +36,7 @@ csv_file_test2 = pd.read_csv('/Users/ivanivani/Documents/python/net_traffic_clas
 
 [data_train,target_train, feature_list] = cvs_process(csv_file_train,0)
 [data_test1,target_test1] = cvs_process(csv_file_test1,0)
-[data_test2,target_test2] = cvs_process(csv_file_test2,0)
+[data_test2,target_test2] = cvs_process(csv_file_test2,1)
 
 data_test = pd.DataFrame(pd.concat([data_test1,data_test2], ignore_index=True))
 target_test = pd.DataFrame(pd.concat([target_test1,target_test2], ignore_index=True))
