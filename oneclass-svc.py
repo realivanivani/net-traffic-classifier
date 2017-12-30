@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 
-def cvs_process(data, target_value):
+def cvs_process(csv_file, target_value):
     # Function to clean cvs from NaN,
     # transform features into labels using LabelEncoder
     # and select features by choosing those which differ
@@ -28,13 +28,13 @@ def cvs_process(data, target_value):
         if not translbl.sum() == 0:
             feature_list.insert(i,i)
 
-    return(data,[target_value for col in range(size[0])])
+    return(data,[target_value for col in range(size[0])], feature_list)
 
 csv_file_train = pd.read_csv('/Users/ivanivani/Documents/python/net_traffic_classifier/reqnorm-train.csv', dtype=str)
 csv_file_test1 = pd.read_csv('/Users/ivanivani/Documents/python/net_traffic_classifier/reqnorm-test.csv', dtype=str)
 csv_file_test2 = pd.read_csv('/Users/ivanivani/Documents/python/net_traffic_classifier/reqanom-test.csv', dtype=str)
 
-[data_train,target_train] = cvs_process(csv_file_train,0)
+[data_train,target_train, feature_list] = cvs_process(csv_file_train,0)
 [data_test1,target_test1] = cvs_process(csv_file_test1,0)
 [data_test2,target_test2] = cvs_process(csv_file_test2,0)
 
