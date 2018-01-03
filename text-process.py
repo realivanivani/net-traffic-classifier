@@ -36,7 +36,7 @@ def http_parser(textfile):
                 elif len(singlereq.index) != 0:
                     if singlereq.values[0,0] != 'GET':
                         splitline = pd.DataFrame(next(infile).split())
-                        singlereq = pd.concat([singlereq,splitline], ignore_index=True)       # this had no value
+                        singlereq = pd.concat([singlereq,splitline], ignore_index=True)
                         singlereq = singlereq.T
                         reqpost = pd.concat([reqpost,singlereq], ignore_index=True)
                     else:
