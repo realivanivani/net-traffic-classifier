@@ -1,4 +1,18 @@
-Directory containing my original solution in which I used
+Directory containing my original solution in which I used OneClassSVM with GridSearchCV to train the model. My problem was that I did not parse the data correctly.
+
+## My initial thinking ##
+---
+
+Observations:
+There are 2 types of requests, GET and POST
+They seem similar, except that POST requests have an additional line after
+There is a lot of attributes that repeat, meaning they are not important
+
+This is my thinking process:
+1. Idea was to parse every word from each HTTP request and save it as a feature
+2. Select the features that have some variance. For the beginning I can just simple look at the sum
+3. Use OneClassSVM for classification
+4. Get the parameters with GridSearchCV
 
 
 ## Feedback ##
