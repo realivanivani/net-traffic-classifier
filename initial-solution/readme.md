@@ -1,7 +1,10 @@
 Directory containing my original solution in which I used
 
 
+## Feedback ##
+
 Here is the feedback of the team, for which I am very greatful!
+---
 
 A crucial part of the process of developing a classifier is feature engineering. For that you need to understand the data and have some notion of the domain.
 
