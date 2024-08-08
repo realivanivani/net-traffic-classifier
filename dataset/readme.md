@@ -66,7 +66,3 @@ To utilize this dataset for training and evaluating a classifier, follow these s
 ## Licensing and Citation
 
 Please ensure you comply with any licensing terms provided by the dataset source. If using the data for research or publication, cite the original dataset appropriately.
-
----
-
-This README provides clear instructions and context for the dataset within the `/dataset` directory, guiding users on how to utilize the data for their classification tasks.
