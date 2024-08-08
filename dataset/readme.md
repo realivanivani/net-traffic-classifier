@@ -1,6 +1,3 @@
-Certainly! Here’s a `README.md` file for the `/dataset` directory of your GitHub repository, detailing the contents and purpose of the data files:
-
----
 
 # Dataset for CSIC 2010 HTTP Request Classification
 
