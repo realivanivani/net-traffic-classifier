@@ -16,7 +16,7 @@ The dataset can be downloaded from the [official website](http://www.isi.csic.es
 
 ## Dataset Format
 
-Each file contains multiple rows, each representing an HTTP request with the following structures:
+Each file contains multiple rows, each representing an HTTP request with the following structures (few examples):
 
 ```
 GET http://localhost:8080/tienda1/publico/anadir.jsp?id=3&nombre=Vino+Rioja&precio=100&cantidad=55&B1=A%F1adir+al+carrito HTTP/1.1
