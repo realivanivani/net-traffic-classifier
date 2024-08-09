@@ -31,7 +31,9 @@ Three types of anomalous requests were considered:
 
 ## Data Source
 
-The dataset can be downloaded from the [official website](http://www.isi.csic.es/dataset/) (Update: seems the link is not active anymore. Here is a working reference: https://web.archive.org/web/20130924222653/http://iec.csic.es/dataset) .
+The dataset can be downloaded from the [official website](http://www.isi.csic.es/dataset/) 
+
+*(Update: seems the link is not active anymore. Here is a working reference: https://web.archive.org/web/20130924222653/http://iec.csic.es/dataset)*
 
 ## Dataset Format
 
