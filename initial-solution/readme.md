@@ -16,8 +16,9 @@ This is my thinking process:
 
 ## Feedback ##
 
-Here is the feedback of the team, for which I am very greatful!
+Here is the feedback of the team, for which I am very greatful, as I've used their feedback to redo my solution...actually, I started from scratch, but I used their suggestions as a guideline.
 
+--Feedback--
 
 A crucial part of the process of developing a classifier is feature engineering. For that you need to understand the data and have some notion of the domain.
 
