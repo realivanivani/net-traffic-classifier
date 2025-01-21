@@ -16,25 +16,17 @@ to detect anomalous network traffic.
 
 2. **`parse_http_request` function:**
    - This function (separate file) is crucial for extracting relevant features from the raw HTTP request text. 
-   - It should parse the request and extract features such as:
-      - HTTP method (GET, POST, etc.)
-      - URL 
-      - Request headers (e.g., User-Agent, Host, Content-Type)
-      - Request body (if present)
-      - Timestamp (if available)
+   - It should parse the request and extract features
 
 **Output:**
 
 - `http_requests_all.csv`: Contains all parsed requests from all files.
 - `http_requests_train.csv`: Contains parsed requests for training the model.
 - `http_requests_test.csv`: Contains parsed requests for evaluating the model. 
-- (Optional) `http_requests_test_anom.csv`: Contains parsed anomalous requests for testing.
 
 **Before Running:**
 
-1. **Create the `parse_http_request` function:** 
-   - Define this function to extract features from the raw HTTP request text.
-2. **Adjust `folder_path`:** 
+1. **Adjust `folder_path`:** 
    - Ensure that the `folder_path` variable correctly points to the directory containing the dataset files.
 
 """
@@ -87,6 +79,5 @@ df_train.to_csv('http_requests_train.csv', index=False)
 
 df_test = df[(df.Train_Test == 'Test')]
 df_test.to_csv('http_requests_test.csv', index=False)
-#df[(df.Train_Test == 'Test') & (df.Normal_Anom == 'Anomalous')].to_csv('http_requests_test_anom.csv', index=False)
 
 print(f"Data has been saved")
