@@ -30,6 +30,9 @@ to detect anomalous network traffic.
    - Ensure that the `folder_path` variable correctly points to the directory containing the dataset files.
 
 """
+import os
+import re
+import pandas as pd
 
 # Folder containing the .txt files
 folder_path = 'csic_dataset/'
