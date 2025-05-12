@@ -85,9 +85,3 @@ This project is licensed under the CSIC License - see their page [LICENSE]([LICE
 ## Contact
 
 For any questions or feedback, please contact [Ivan Ivani] at [jasamivanivani@gmail.com].
-
----
-# net-traffic-classifier
-Training a classifier that will detect anomalous HTTP requests
-
-using the data from http://www.isi.csic.es/dataset/
