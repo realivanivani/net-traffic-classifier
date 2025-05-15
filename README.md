@@ -2,6 +2,29 @@
 
 This repository contains solutions for an interview assignment to parse, analyze, and classify HTTP requests using the CSIC 2010 dataset. The goal is to train a classifier to distinguish between normal (legitimate) and malicious (anomalous) HTTP requests.
 
+## About the Dataset
+
+The CSIC 2010 HTTP dataset is a well-known dataset used for anomaly detection and web attack detection in cybersecurity research. It was created by the CSIC (Spanish Research National Council) and contains thousands of normal and malicious HTTP requests to test intrusion detection systems (IDS) and web application firewalls (WAF).
+
+Key Features of the CSIC 2010 Dataset:
+* Contains 36,000+ HTTP requests (both normal and anomalous).
+
+* Includes various types of web attacks, such as:
+
+** SQL Injection (SQLi)
+
+** Cross-Site Scripting (XSS)
+
+** Buffer Overflow
+
+** Path Traversal
+
+** Parameter Tampering
+
+* Used for machine learning-based intrusion detection research.
+
+* Requests are labeled as normal or attack.
+
 ## Repository Structure
 
 - **/dataset**: Contains the CSIC 2010 dataset in a zip file format.
