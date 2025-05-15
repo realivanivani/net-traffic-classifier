@@ -11,15 +11,15 @@ Key Features of the CSIC 2010 Dataset:
 
 * Includes various types of web attacks, such as:
 
-** SQL Injection (SQLi)
+   * SQL Injection (SQLi)
 
-** Cross-Site Scripting (XSS)
+   * Cross-Site Scripting (XSS)
 
-** Buffer Overflow
+   * Buffer Overflow
 
-** Path Traversal
+   * Path Traversal
 
-** Parameter Tampering
+   * Parameter Tampering
 
 * Used for machine learning-based intrusion detection research.
 
