@@ -70,7 +70,7 @@ Ensure you have Python and Jupyter Notebook installed on your system. You will a
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/realivanivani/net-traffic-classifier.git
-   cd csic2010-classification
+   cd net-traffic-classifier
    ```
 
 2. **Set up a virtual environment (optional but recommended)**:
