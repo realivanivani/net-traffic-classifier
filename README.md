@@ -29,8 +29,8 @@ Key Features of the CSIC 2010 Dataset:
 
 - **/dataset**: Contains the CSIC 2010 dataset in a zip file format.
 - **/initial-solution**: First attempt at solving the assignment, including initial exploration and model prototyping.
-- **/LLMs-solutions**: Solutions generated using large language models like ChatGPT and Gemini.
 - **/final-solution**: Final refined solution for the assignment with improved performance and analysis.
+- **/src**: Source code for preprocessing raw data.
 
 ## Assignment Overview
 
